@@ -25,7 +25,7 @@ const Gallery = props => {
           {selected && <SelectedImage img={selected} />}
         </div>
         <div className="col-12">
-          <div className="gallery">
+          <div className="gallery pb-5">
           {photos.map((photo, i) => (
             <div className="gallery-row" key={i}>
               <img

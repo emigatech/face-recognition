@@ -91,7 +91,7 @@ const Camera = ({ photoMode }) => {
                   ref={cameraCanvas}
                 />
                 {photoMode ? (
-                  <div className="text-center pt-1 pb-3">
+                  <div className="text-center pt-4 pb-3">
                     {photos.length > 0 && (
                       <Button onClick={toggleGallery}>
                         {showGallery ?
