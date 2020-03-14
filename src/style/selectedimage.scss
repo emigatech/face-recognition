@@ -1,0 +1,26 @@
+.processing {
+  background-color: $primary;
+  color: $secondary;
+}
+
+.selected-image {
+  position: relative;
+  width: 100% !important;
+  height: auto;
+
+  img {
+    position: relative;
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+.selected-image-processing {
+  flex-basis: 100%;
+}
+
+.selected-image-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

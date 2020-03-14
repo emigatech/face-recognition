@@ -1,0 +1,44 @@
+.camera {
+  margin-top: 56px;
+  max-width: 100%;
+  max-height: auto;
+  background-color: $primary;
+  position: relative;
+  border-radius: 14px;
+
+  height: 100%;
+
+  video {
+    border-radius: 14px;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  canvas {
+    background-color: $secondary;
+  }
+
+  .button {
+    padding: 10px;
+    border-radius: 100px;
+  }
+}
+
+.webcam-overlay {
+  position: absolute;
+  background-color: transparent !important;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.webcam-overlay--hidden {
+  display: none;
+}
+
+.toggle-snap {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
