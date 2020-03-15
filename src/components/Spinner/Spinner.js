@@ -10,7 +10,7 @@ const Spinner = () => {
         alignItems: "center",
         justifyContent: "center",
       }}
-      className="pt-5"
+      className="pt-5 pb-5"
     >
       <FontAwesomeIcon icon="spinner" spin size="lg" />
     </div>

@@ -23,7 +23,7 @@ const Results = ({results, processing}) => {
                       <div className="col-6">
                         <FontAwesomeIcon
                           icon={mapExpressionToEmoji(
-                            results[0].expressions.asSortedArray()[0].expression
+                            result.expressions.asSortedArray()[0].expression
                           )}
                           size="4x"
                         />
@@ -31,7 +31,7 @@ const Results = ({results, processing}) => {
                       <div className="col-6">
                         <FontAwesomeIcon
                           icon={mapExpressionToEmoji(
-                            results[0].gender
+                            result.gender
                           )}
                           size="4x"
                         />
@@ -39,10 +39,10 @@ const Results = ({results, processing}) => {
                       <div className="col-12 pt-5">
                         <p>
                           You are looking{" "}
-                          {results[0].expressions.asSortedArray()[0].expression}
+                          {result.expressions.asSortedArray()[0].expression}
                         </p>
-                        <p>You look around {Math.round(results[0].age)} years old</p>
-                        <p>I think you are a {results[0].gender}</p>
+                        <p>You look around {Math.round(result.age)} years old</p>
+                        <p>I think you are a {result.gender}</p>
                       </div>
                     </div>
                   </div>
