@@ -1,10 +1,10 @@
 {
-    "name": "faceapi.emiga.tech",
+    "name": "ai.emiga.tech",
     "version": "1.0.0",
     "description": "Face Recognition Application by emiga.tech.",
-    "short_name": "faceapi.emiga.tech",
+    "short_name": "ai.emiga.tech",
     "lang": "en-US",
-    "start_url": "https://faceapi.emiga.tech",
+    "start_url": "https://ai.emiga.tech",
     "display": "standalone",
     "background_color": "#f0ffff",
     "theme_color": "#003333",
@@ -12,7 +12,7 @@
     "related_applications": [
         {
             "platform": "web",
-            "url": "https://faceapi.emiga.tech"
+            "url": "https://ai.emiga.tech"
         }
     ],
     "icons": [
@@ -53,7 +53,7 @@
             "density": "4.0"
         }
     ],
-    "url": "https://faceapi.emiga.tech",
+    "url": "https://ai.emiga.tech",
     "screenshots": [],
     "orientation": "portrait"
 }
