@@ -6,7 +6,7 @@
     "lang": "en-US",
     "start_url": "https://faceapi.emiga.tech",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#f0ffff",
     "theme_color": "#003333",
     "permissions": ["gcm", "storage", "notifications"],
     "related_applications": [

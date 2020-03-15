@@ -10,8 +10,8 @@ class Home extends Component {
         <div className="container pt-5">
 
           <h1 className="pt-2 pb-2">
-            Hi from <a href="https://emiga.tech" title="Go to emiga.tech"><b>emiga.tech</b> 👋</a>.
-            In that case, we are providing face recogniton also.
+            Hi from <a href="https://emiga.tech" title="Go to emiga.tech"><b>emiga.tech</b> 👋</a>. 
+            Check this projects.
           </h1>
 
           <div className="row">
